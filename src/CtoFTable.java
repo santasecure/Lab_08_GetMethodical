@@ -5,7 +5,7 @@ public class CtoFTable {
 
     /**
      * Prints a Celsius to Fahrenheit conversion table
-     * from 0°C to 100°C in 1-degree increments
+     *  from 0°C to 100°C in 1-degree increments
      */
     public static void printCtoFTable() {
         System.out.println("Celsius   Fahrenheit");

@@ -189,7 +189,15 @@ public class SafeInput {
      * Displays a formatted header with a message centered in a decorative frame
      *
      * @param msg the message to display
+     *
+     * Pseudocode:
+     * -- Define total width of the header line
+     * -- Calculate how much space is needed to center the message
+     * -- Print top line of asterisks
+     * -- Print line with message centered between "***" and " ***"
+     * -- Print bottom line of asterisks
      */
+
     public static void prettyHeader(String msg) {
         final int WIDTH = 60;
         int padding = (WIDTH - msg.length() - 6) / 2; // Adjusting for "*** " and " ***"
